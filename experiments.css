@@ -1,0 +1,20 @@
+html {
+    background-color: rosybrown;
+}
+.lists {
+    color: #0000ff;
+    color: hsl(hue, saturation, lightness);
+    color: rgb(red, green, blue);
+    color: rgba(red, green, blue, alpha);
+}
+h2 {
+    color: green;
+}
+.box {
+    height: 100px;
+    width: 20%;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+}

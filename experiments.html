@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="experiments.css">
+    <head>
+        <title>Experiments</title>
+    </head>
+    <body>
+        <h2>Heading 2 H2</h2>
+        <main>
+            <h3>Photos</h3>
+            <p>Parahgraph text and a 
+                <a 
+                    href="#"
+                    target="_blank">fake link
+<!-- 
+    href="#" links to a website, replace # with url
+    target="_blank" opens in new tab
+-->
+                    
+                </a>
+            </p>
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/09/04/16/alpaca.jpg?width=640&auto=webp&quality=75&crop=982:726,smart"
+            alt="An alpaca looking goofy">
+            <div class="lists">
+                <p><em>Unordered</em> List</p>
+                <ul>
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>List item 3</li>
+                </ul>
+                <img src="cats.jpg" alt="Listed Item 3">
+                <p><strong>Ordered</strong> List</p>
+                <ol>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                </ol>
+            </div>
+<!--
+    <div> packages the contents inside tags into a class, can style whole class with css
+    <em> puts the word in italics
+    <strong> puts the word in bold
+    <ul> with <li> creates an unordered list (dot points)
+    <ol> with <li> creates an ordered list (numbers)
+-->
+            <form action="/submit-cat-photo">
+                <label for="Option 1"><input
+                    type="radio" id="Option 1" name="Deselect"> Option 1 </label><br>
+                <label for="Option 2"><input
+                    type="radio" id="Option 2" name="Deselect"> Option 2 </label><br>
+
+                <label for="loving"><input
+                    type="checkbox" id="Checkbox 1" name="Deselect" checked> Checkbox 1 </label><br>
+                <label for="loving"><input
+                    type="checkbox" id="Checkbox 2" name="Deselect"> Checkbox 2 </label><br>
+                </label>
+                <input 
+                required
+                type="text" 
+                placeholder="This Box Does Nothing">
+                <button
+                    type="submit">submit
+                </button>
+<!-- 
+    <form action="/etc"> creates a submittable form, and action links to where the form would upload to
+    <input> creates input types
+        type="radio" - selectable option/button
+            name="xxx" - naming two radio type inputs the same makes only one selectable at a time
+        type="text" - text box
+            placeholder="xxx" - text that appears in the text box, disappears once typed in
+            
+        type="submit" - submit button
+                 
+-->
+            </form>
+            <div class="box"></div>
+        </main>
+        <footer>
+            <p>Footer paragraph</p>
+        </footer>
+    </body>
+</html>

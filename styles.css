@@ -1,0 +1,79 @@
+html {
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+}
+
+.mainp {
+    text-align: center;
+    font-size: 200%;
+}
+
+table, tr, th {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 110%;
+}
+
+
+
+.a1list {
+    text-align: left;
+    font-size: 200%;
+    color: black;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+.home {
+    text-align: center;
+    font-size: 200%;
+}
+
+.previous {
+    text-align: left;
+    font-size: 200%;
+    padding-left: 5%;
+}
+
+.next {
+    text-align: right;
+    font-size: 200%;
+    padding-right: 5%;
+}
+
+.return {
+    text-align: left;
+    font-size: 200%;
+}
+
+.boardgamers {
+    font-size: 115%;
+}
+
+.question {
+    text-decoration: underline;
+    font-size: 170%;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.answer {
+    font-size: 115%;
+}
